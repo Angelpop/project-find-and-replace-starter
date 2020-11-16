@@ -35,8 +35,8 @@ replaceAllButton.addEventListener("click", function( ){
             // console.log(cellStuff)
             if (cellStuff.includes(search)) {
                 // console.log("search text")
-                cellStuff=cellStuff.replace(search, reInput);
-                console.log (reInput)
+                cellElements[j].innerHTML=cellStuff.replace(search, reInput);
+                console.log (cellStuff)
             }
             }
         }
